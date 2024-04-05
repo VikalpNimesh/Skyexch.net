@@ -103,4 +103,7 @@ hr{
   .lower-header{
     display: none;
   }
+  .social-links ul{
+    display: none;
+  }
 }
