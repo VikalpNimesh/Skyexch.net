@@ -1,0 +1,131 @@
+.off-canvas {
+  width: 373px !important;
+}
+.logo {
+  max-width: 180px;
+  padding: 0 !important;
+  margin: 0;
+}
+
+.offcanvas-header {
+  padding: 0 !important;
+  margin: 10px 0;
+}
+.nav-body {
+  width: 95%;
+  margin: 0;
+  height: 100%;
+}
+.btn-close{
+    margin: 0 10px 0 0 !important;
+font-size: 20px;
+    font-weight: bolder;
+}
+.nav-body::-webkit-scrollbar {
+  display: none;
+}
+
+.links {
+  /* display: inline-block; */
+  /* float: left; */
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  padding: 14px 0;
+  text-transform: uppercase;
+  border-bottom: 1px solid #dadada;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  font-family: "Titillium Web", sans-serif;
+  color: #333333;
+  transition: color 0.25s;
+}
+.links:hover {
+  color: yellow;
+}
+
+.sign-up {
+  background: #ffc019;
+  max-width: 100px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.sign-up button {
+  border: none;
+  outline: none;
+  background: #ffc019;
+  display: inline-block;
+  float: left;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  padding: 14px 0;
+  text-transform: uppercase;
+}
+.whats-up button {
+  outline: none;
+  border: none;
+  background-color: #30a844;
+  padding: 14px 14px;
+  color: #fff !important;
+  margin-top: 3px;
+  font-family: "Titillium Web", sans-serif;
+  display: inline-block;
+  float: left;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  /* padding: 14px 0; */
+  text-transform: uppercase;
+}
+
+.social-box{
+    display: flex;justify-content: center;align-items: center;
+    flex-direction: column;
+    margin: 0 5.40540540541%;
+    position: absolute;
+    bottom: 48px;
+    left: 0;
+    text-align: center;
+    width: 89.1891891892%;
+}
+.social-box span{
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: .65rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.social-box ul{
+    
+    /* margin-top: -3px; */
+}
+.social-box ul li{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    /* margin-left: 2px; */
+    /* padding-top: 10px; */
+    text-align: center;
+    -webkit-transition: background .25s;
+    -moz-transition: background .25s;
+    -ms-transition: background .25s;
+    -o-transition: background .25s;
+    transition: background .25s;
+    width: 32px;
+    height: 22px;
+    background: #000;
+    color: white;
+    display: flex;
+    align-items: center;justify-content: center;    
+}

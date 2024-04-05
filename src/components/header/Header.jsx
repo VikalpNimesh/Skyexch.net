@@ -7,7 +7,7 @@ import {
 import { faBars, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import "./style.css";
 
-const Header = ({setisCanvas}) => {
+const Header = () => {
   return (
     <div className="main-header">
       <div className="header">
