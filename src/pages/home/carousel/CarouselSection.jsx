@@ -13,8 +13,8 @@ const CarouselSection = () => {
     <div className="carousel-section">
       <Swiper
        modules={[Navigation, Pagination, Scrollbar, A11y]}
-      spaceBetween={50}
-      slidesPerView={3}
+      spaceBetween={10}
+      slidesPerView={1}
       navigation
       // pagination={{ clickable: true }}
       // scrollbar={{ draggable: true }}
@@ -201,8 +201,6 @@ const CarouselSection = () => {
           <div className="text">Oman elected to bowl</div>
         </div>
       </div></SwiperSlide>
-     
-      ...
     </Swiper>
       
     </div>
