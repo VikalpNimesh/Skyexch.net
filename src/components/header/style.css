@@ -1,6 +1,5 @@
-.main-header{
+.main-header {
   /* position: sticky; */
- 
 }
 .header {
   display: flex;
@@ -8,9 +7,23 @@
   align-items: center;
   padding: 10px 0;
 }
-
+.header-bar {
+  display: none;
+  cursor: pointer;
+  width: 20px;
+  height: 40px;
+  margin-left: 20px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  /* flex-direction: column; */
+}
 .logo img {
-  width: 200px;
+  max-width: 12.5rem;
+ 
 }
 .social-links {
   display: flex;
@@ -24,24 +37,46 @@
   margin-bottom: 0;
 }
 
-hr{
+hr {
   margin: 0;
 }
-
-.social-link{
+.sign-up-btn{
+  background: #f6a21e;
+  display: none ;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+  z-index: 999;
+  
+}
+.sign-up-btn a{
+  font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #fff !important;
+    text-decoration: none;
+}
+.social-link {
   font-family: "Titillium Web", sans-serif !important;
   list-style: none;
   float: right;
   font-size: 20px;
   font-weight: 600;
   line-height: 1;
-  margin-right: 10px;
+  /* margin-right: 10px; */
   padding: 15px 8px;
   text-transform: uppercase;
 }
 
 .social-link-text {
   font-size: 10px;
+}
+
+.header-whatsapp{
+  display: none;
+  margin-right: 10px;
 }
 
 /* *************lower-header********************  */
@@ -56,16 +91,15 @@ hr{
   width: 20px;
   height: 40px;
 }
-.nav-links{
-  display: flex;justify-content: center;
+.nav-links {
+  display: flex;
+  justify-content: center;
   align-items: center;
   gap: 70px;
-  
 }
 
-.nav-links ul{
+.nav-links ul {
   margin-bottom: 0;
-
 }
 .nav-link {
   list-style: none;
@@ -73,20 +107,20 @@ hr{
   font-size: 1rem;
   font-weight: 700;
   line-height: 1;
-  padding: .875rem .75rem;
+  padding: 0.875rem 0.75rem;
   position: relative;
   text-transform: uppercase;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   color: #333333;
 }
 
-.nav-links ul :last-child{
+.nav-links ul :last-child {
   background-color: rgba(252, 185, 0, 1);
 }
 
-.wp{
+.wp {
   background-color: rgba(252, 185, 0, 1);
-  height:  44px;
+  height: 44px;
   padding: 14px 12px;
   /* font-size: 16px; */
   font-weight: 700;
@@ -94,16 +128,46 @@ hr{
   padding: 14px 12px;
   /* position: relative; */
   text-transform: uppercase;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   color: #fff;
   background: rgb(0, 208, 130);
 }
 
 @media only screen and (max-width: 1200px) {
-  .lower-header{
+  .lower-header {
     display: none;
   }
-  .social-links ul{
+  
+  .header-bar{
+    display: block;
+  }
+}
+@media only screen and (max-width: 1000px) {
+.sign-up-btn{
+display: block;
+}
+.header{
+  padding: 5px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  .social-links ul {
     display: none;
   }
+.header{
+  padding: 0;
+}
+.logo img{
+  width: 120px;
+}
+
+.header-whatsapp{
+  display: block;
+  width: 30px;
+}
+.sign-up-btn{
+  display: block!important;
+  margin-right: 20px;
+}
 }

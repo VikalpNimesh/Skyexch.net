@@ -12,13 +12,16 @@ const Header = () => {
     <div className="main-header">
       <div className="header">
         <div className="logo">
+        <FontAwesomeIcon className="header-bar" data-bs-toggle="offcanvas" href="#offcanvasExample"  icon={faBars} />
           <img
             src="https://skyexch.net/wp-content/uploads/2022/06/sky_header_logo.png"
             alt=""
           />
         </div>
         <div className="social-links">
+        <span className="sign-up-btn"><a href="https://wa.link/skyexchnet">SIGNUP</a></span>
           <ul>
+          
             <li className="social-link social-link-text">CONNECT WITH US</li>
             <li className="social-link">
               <FontAwesomeIcon icon={faFacebookF} />
@@ -33,6 +36,7 @@ const Header = () => {
           <div className="search-bar">
             <FontAwesomeIcon className="social-link" icon={faMagnifyingGlass} />
           </div>
+          <img className="header-whatsapp" src="https://skyexch.net/wp-content/themes/the-league-child/images/whatsapp.png" alt="whatsapp icon"></img>
         </div>
       </div>
       <hr />
