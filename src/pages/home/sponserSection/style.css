@@ -1,0 +1,41 @@
+.sponser-section{
+
+    padding: 0 30px;
+}
+.sponser-section h2{
+    margin-bottom: 20px;
+    border-width: 0 0 1px;
+    border-style: solid;
+    border-color: #bbb;
+    width: 100%;
+    display: block;
+    padding-bottom: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.sponser-carausel-box .item{
+    width: 100%;
+    /* margin-right: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper{
+    margin: 50px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    display: none;
+    /* width:20px ; */
+  opacity: 1;
+  transition: 0.5s ease-in-out;
+}
+
+.swiper-button-disabled {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+

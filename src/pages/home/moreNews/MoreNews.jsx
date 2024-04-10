@@ -19,9 +19,9 @@ const MoreNews = () => {
             </div>
           <HeadlineBox />
           </NewsSection>
-          <button className='more-post-btn'>
+          {/* <button className='more-post-btn'>
                 More Posts
-              </button>
+              </button> */}
           </div>
           
         </div>

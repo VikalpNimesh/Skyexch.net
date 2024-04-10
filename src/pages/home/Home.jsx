@@ -10,6 +10,7 @@ import MoreNews from "./moreNews/MoreNews";
 import HeadlineBox from "./newSection/HeadlineBox";
 import NewsBox from "./newSection/NewsBox";
 import NewsSection from "./newSection/NewsSection";
+import Sponser from "./sponserSection/Sponser";
 import "./style.css";
 const Home = () => {
   return (
@@ -31,17 +32,24 @@ const Home = () => {
         </div>
 
         <div>
-          <NewsSection/>
-          <NewsSection/>
-          <NewsSection/>
+          <NewsSection />
+          <NewsSection />
+          <NewsSection />
         </div>
 
         <div>
-          <MoreNews/>
+          <MoreNews />
+        </div>
+
+        <div>
+          <Sponser />
         </div>
         
       </ContentWrapper>
-      <Footer/>
+      <div className="addvertise">
+            <img src="https://skyexch.net/wp-content/uploads/2023/08/skyexch-ad-728x90-1.jpg" />{" "}
+          </div>
+      <Footer />
     </div>
   );
 };

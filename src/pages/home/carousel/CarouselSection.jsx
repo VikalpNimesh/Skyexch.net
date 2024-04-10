@@ -14,8 +14,20 @@ const CarouselSection = () => {
       <Swiper
        modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={10}
-      slidesPerView={3}
-      navigation
+      breakpoints={{
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          480: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          640: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          }
+        }}      navigation
       // pagination={{ clickable: true }}
       // scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
