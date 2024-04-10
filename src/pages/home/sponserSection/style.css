@@ -1,5 +1,5 @@
 .sponser-section{
-
+margin-top: 20px;
     padding: 0 30px;
 }
 .sponser-section h2{
@@ -23,11 +23,11 @@
     justify-content: center;
 }
 .swiper{
-    margin: 50px;
+    /* margin: 50px; */
 }
 .swiper-button-next,
 .swiper-button-prev {
-    display: none;
+    /* display: none; */
     /* width:20px ; */
   opacity: 1;
   transition: 0.5s ease-in-out;

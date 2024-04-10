@@ -4,3 +4,8 @@
   box-sizing: border-box;
 }
 
+li:hover , .entity_tab:hover ,.big-box:hover , .story-info:hover{
+  color: #ffc019 !important;
+  cursor: pointer;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}

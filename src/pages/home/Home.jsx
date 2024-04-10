@@ -7,7 +7,7 @@ import ContestAlert from "./bannerSection/ContestAlert";
 import CarouselSection from "./carousel/CarouselSection";
 import EntitySection from "./entity section/EntitySection";
 import MoreNews from "./moreNews/MoreNews";
-import HeadlineBox from "./newSection/HeadlineBox";
+import HeadlineBox from "./moreNews/HeadlineBox";
 import NewsBox from "./newSection/NewsBox";
 import NewsSection from "./newSection/NewsSection";
 import Sponser from "./sponserSection/Sponser";
