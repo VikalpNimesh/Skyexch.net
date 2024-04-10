@@ -1,0 +1,55 @@
+/* **************morenews************** */
+.more-news .story-boxes{
+    /* padding: 0 30px; */
+    justify-content: start;
+   
+}
+.more-news .news-box{
+    display: flex;
+    max-width:  100%;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.more-news .news-info-box .post-info{
+    color: #111;
+    float: left;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: -.02em;
+    line-height: 1.1;
+    width: 100%;
+}
+.more-news .news-info-box{
+    margin: 0;
+}
+
+
+/* ***************headline****************** */
+
+.headline-section{
+    /* width: 30%;  */
+    background: #000;
+}
+
+
+.more-post-btn{
+    background: #fff;
+    border: 1px solid #aaa;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: .8rem;
+    font-weight: 600;
+    letter-spacing: .02em;
+    line-height: 1;
+    margin-top: 20px;
+    padding: 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 99.4%;
+    color: #0077ee !important;
+}

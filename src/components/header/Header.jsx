@@ -36,7 +36,7 @@ const Header = () => {
           <div className="search-bar">
             <FontAwesomeIcon className="social-link" icon={faMagnifyingGlass} />
           </div>
-          <img className="header-whatsapp" src="https://skyexch.net/wp-content/themes/the-league-child/images/whatsapp.png" alt="whatsapp icon"></img>
+          {/* <img className="header-whatsapp" src="https://skyexch.net/wp-content/themes/the-league-child/images/whatsapp.png" alt="whatsapp icon"></img> */}
         </div>
       </div>
       <hr />
