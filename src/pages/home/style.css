@@ -1,6 +1,7 @@
 .home{
     /* background: #000; */
     box-shadow: 0px 1px 6px lightgrey;
+    position: relative;
 }
 .hr{
     width: 99%;
