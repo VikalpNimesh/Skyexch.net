@@ -1,4 +1,57 @@
-.sport-match-section{
-    width: 65%;
-    background: #000;
+.sport-match-section {
+  position: relative;
+  width: 65%;
+  /* background: #000; */
+}
+
+.sport-match-section h2 {
+  margin-bottom: 30px;
+  width: 100%;
+  font-size: 3.1rem;
+  text-align: center;
+  color: #333;
+  /* font-size: 3.5rem; */
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  /* margin-bottom: 10px; */
+  width: 100%;
+}
+
+
+.live-match-section {
+  width: 100%;
+  /* float: right; */
+  position: relative;
+  display: flex;
+  /* gap: 30px; */
+}
+
+.social-post-box {
+  margin-right: 30px;
+  width: 42px;
+}
+.social-post-box ul {
+  width: 100%;
+  padding-left: 0px !important;
+}
+
+.live-social-link {
+  background: #3b5998;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  color: #fff;
+  /* float: left; */
+  font-size: 18px;
+  line-height: 1;
+  margin-bottom: 10px;
+  padding-top: 11px;
+  position: relative;
+  text-align: center;
+  width: 42px;
+  height: 42px;
+  list-style: none;
 }

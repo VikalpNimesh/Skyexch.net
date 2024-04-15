@@ -1,0 +1,41 @@
+.scorecard-unflexed{
+    background: #ffffff !important;
+    padding: 18px 0;
+}
+
+.widget-title{
+    margin: 0;
+    font-size: 15px;
+    line-height: 20px;
+    border-top: none;
+    border-bottom: none;
+    background-color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.match-details{
+    line-height: 20px;
+    border-top: 1px solid #eee;
+    display: block;
+    padding: 5px 0 10px;
+    color: #000;
+    background-color: #ffffff;
+}
+
+.mtc-date ,.mtc-venue{
+    font-size: initial;
+    line-height: initial;
+    display: flex!important;
+    margin: 0!important;
+    padding-bottom: 10px;
+}
+
+.entity-sm-8{
+    width: 33.3333333%;
+}
+.entity-sm-8 div{
+    font-weight: 500;
+    opacity: .6;
+    font-size: 14px;
+    line-height: 22px;
+}

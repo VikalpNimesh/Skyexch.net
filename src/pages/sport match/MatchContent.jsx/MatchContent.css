@@ -1,0 +1,80 @@
+.match-links {
+  background-color: #ffffff;
+  border: 5px solid #ffffff;
+  white-space: nowrap;
+  padding: 10px;
+  display: flex;
+}
+.match-link {
+  /* margin-left: 50px; */
+  float: none;
+  display: inline-block;
+  background: #f1f1f1;
+  color: #000;
+  padding: 5px 0px;
+  display: block;
+  padding: 10px 45px;
+  border-radius: 50px;
+  margin-right: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-right: none;
+  display: block;
+  font-weight: 700;
+  font-size: 15px;
+}
+.match-link:hover {
+  background-color: #402c8b;
+}
+
+/* ************** .inning-scorecard *************** */
+
+.inning-scorecard{
+    max-width: 100%;
+    /* max-height: ; */
+    color: #000;
+    margin-bottom: 10px;
+    padding: 15px 15px 14px 35px;
+}
+.inning-heading{
+    display: flex;
+    justify-content: space-between;
+
+}
+.taem-logo-name-box{
+    display: flex;
+    align-items: center;justify-content: start;
+}
+.team-logo{
+    width: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.team-logo img{
+    width: 38px;
+    margin-right: 10px;
+}
+
+.inning-name{
+    margin-left: 12px;
+    font-weight: 700;
+color: #000;
+}
+
+.scores_full{
+    /* width: 100px; */
+    padding: 8px 25px;
+    /* margin-left: auto; */
+    color: #fff !important;
+    background: #402C8B !important;
+    color: #fff;
+    /* width: 20%; */
+    font-size: 13px;
+    font-weight: 600;
+    /* padding: 9px 0; */
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+    border-radius: 50px;
+    /* background-color: #402c8b; */
+}
