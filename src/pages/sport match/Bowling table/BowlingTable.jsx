@@ -1,6 +1,6 @@
 import React from 'react';
 
-const BowlingTableRow = ({ player, overs, maidens, runs, wickets, econ }) => {
+export const BowlingTableRow = ({ player, overs, maidens, runs, wickets, econ }) => {
     return (
         <tr className="_row">
             <td className="col-player">{player}</td>

@@ -1,0 +1,218 @@
+.headline-section {
+  margin-left: 80px;
+}
+.live-match-section {
+  /* width: 60%; */
+}
+.live-score-box {
+  width: 65%;
+}
+.live-info-box {
+  background: #ffffff;
+  margin: 10px 0px;
+  justify-content: space-between;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.live-info {
+  padding: 10px 8px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.live-inner-div {
+  padding: 5px 10px;
+  font-size: 11px;
+  width: 100%;
+  justify-content: space-between;
+  background: #f1f1f1;
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  padding: 5px 20px;
+  border-radius: 50px;
+  opacity: 0.7;
+  color: #000;
+  width: 30% !important;
+}
+
+/* ************************************recent****************** */
+
+.recent-box {
+  white-space: normal;
+  overflow: hidden;
+  background: #ffffff;
+  font-size: 15px;
+  background-image: url("https://dashboard.entitysport.com/widget/assets/images/cricket/recent-bg.png") !important;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 0;
+  padding: 18px !important;
+  font-weight: 700;
+  background-size: 100% 100% !important;
+}
+
+.rec {
+  width: 12%;
+}
+.recent-runs {
+  width: 85% !important;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow-x: scroll;
+  height: 44px;
+}
+.overend {
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 7px;
+}
+.recent-runs span {
+  padding: 7px 8px;
+  margin: 0 3px;
+  font-size: 10px;
+  line-height: 8px;
+  width: 25px;
+  background-color: #559fd6;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  border-radius: 20px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 0 4px #b9b9b9;
+}
+
+/* *****************commentry**************** */
+
+.match-commentry-box{
+    overflow: hidden;
+    margin-top: 10px;    padding-top: 10px;
+}
+.comment-ball{
+    padding: 18px;
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 10px;
+    box-shadow: 0 10px 10px -15px #111;
+    align-items: center;    background-color: #ffffff !important;
+}
+.commentary-left{
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.commentary-left .score{
+    width: 25px;
+    height: 25px;
+    font-size: 10px;
+    line-height: 27px;
+
+   
+    border-radius: 50%;
+    text-align: center;
+    padding: 0;
+    color: #fff;
+    display: block;
+    background-color: #10aa69;
+    box-sizing: border-box;
+    box-shadow: 0 0 6px #b9b9b9;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.comment .text{
+    font-size: initial;
+    line-height: initial;
+    margin-left: 20px;
+    width: 90%;
+    font-weight: 500;
+    color: #000!important;
+}
+
+.comment-ball .ovb{
+    font-weight: 700;
+}
+.col-mid {
+    width: 2px;
+    height: 55px;
+}
+
+.comment-bg{
+    background-image: url("https://dashboard.entitysport.com/widget/assets/images/cricket/endover.png");
+    background-size: 100% 100%;
+    color: #fff;
+}
+.comment .row-ovr{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    
+    flex-wrap: nowrap!important;
+}
+.row-ovr .col-mid{
+    height: 100px;
+    border-image-source: linear-gradient(to top,#2f1f6d 0%,#7a6dad 53.57%,#2f1f6d 97.62%);
+    background: linear-gradient(to top,#2f1f6d 0,#7a6dad 53.57%,#2f1f6d 97.62%);
+    width: 2px;
+}
+
+.col-xs-12{
+    font-size: 14px;
+    font-weight: 800;
+    word-break: keep-all;
+}
+.endover{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding-bottom: 5px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5;
+}
+.endover img{
+    width: 30px;
+}
+.batsman{
+    padding-bottom: 3px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.bowler{
+    padding-bottom: 3px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+@media only screen and (max-width: 700px) {
+.row-ovr{
+    flex-direction: column;
+    text-align: center;
+}
+.col-mid{
+    height: 20px!important;
+}
+}
+@media only screen and (max-width: 900px) {
+  .live-score-box {
+    width: 100%;
+  }
+  .headline-section {
+    margin-left: 0px;
+  }
+}
+

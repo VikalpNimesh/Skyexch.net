@@ -9,3 +9,7 @@ li:hover , .entity_tab:hover ,.big-box:hover , .story-info:hover{
   cursor: pointer;
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
+ul{
+  margin-bottom: 0px !important;
+  padding-left: 0px;
+}

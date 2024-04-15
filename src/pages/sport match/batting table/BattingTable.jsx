@@ -1,7 +1,7 @@
 import React from "react";
 import "./BattingTable.css";
 
-const BatsmanRow = ({
+export const BatsmanRow = ({
   player,
   howOut,
   runs,
@@ -59,7 +59,7 @@ const ExtraRuns = () => {
   );
 };
 
-const BattingTable = () => {
+const  BattingTable = () => {
   return (
     <table className="battings table1 mb30">
       <tbody>
