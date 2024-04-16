@@ -1,9 +1,12 @@
 import MatchContent from "../MatchContent.jsx/MatchContent";
+import Comentary from "../commentary/Comentary";
+import LiveScore from "../live/LiveScore";
 import "./LiveMatchHeader.css";
 
 const LiveMatchHeader = () => {
   return (
-    <div>
+    <div style={{ "width": "100%" }}>
+      
       <div className="match-center-header ">
         <div className="mtc-left">
           <div className="teamLogo">
@@ -48,7 +51,21 @@ const LiveMatchHeader = () => {
           </div>
         </div>
       </div>
-      <MatchContent/>
+      {/* <div className="manthematch">
+        <div className="dummy-man-of-the-match ">
+          <img
+            src="https://dashboard.entitysport.com/widget/assets/images/cricket/dummy-player.png"
+            alt=""
+          />
+        </div>
+        <div className="flex-the-man">
+          <b>Man of the Match</b>
+          <a href="javascript:void(0);">Atish Kumbhar</a>
+        </div>
+      </div> */}
+      {/* <MatchContent/> */}
+      {/* <LiveScore/> */}
+      <Comentary/>
     </div>
   );
 };

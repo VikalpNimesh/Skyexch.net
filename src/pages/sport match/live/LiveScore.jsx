@@ -90,7 +90,7 @@ const LiveScore = () => {
           </div>
         </div>
       </div>
-      {/* **************recent**************** */}
+      {/* **************recent runs box**************** */}
       <div className="recent-box">
         <div className="rec">RECENT</div>
         <div className="recent-runs">

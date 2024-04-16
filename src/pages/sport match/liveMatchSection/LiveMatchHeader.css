@@ -1,5 +1,4 @@
 
-  
   /* **********.match-center-header************ */
   .match-center-header {
     padding: 5px 0;
@@ -10,6 +9,7 @@
     background-color: #2c1b6b;
     color: white;
     background-size: 100% 100%;
+    margin-bottom: 10px;
   }
   .mtc-left , .mtc-right {
     display: flex;
@@ -88,4 +88,25 @@
       font-weight: 800;
       line-height: 34px;
       font-family: Inter,sans-serif!important;
+  }
+
+  /* *************man of the atch ************* */
+
+  .manthematch{
+    display: flex;
+    color: #000;
+    background-color: #ffffff;
+  }
+  .dummy-man-of-the-match{
+    width: 6%;
+  }
+  .dummy-man-of-the-match img{
+    width: 100%;
+  }
+  .flex-the-man{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    color: #000;    font-size: 14px;
+    font-weight: 600;
+    opacity: .6;line-height: 1.5;
   }

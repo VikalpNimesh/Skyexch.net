@@ -4,14 +4,12 @@ import "./style.css";
 import CarouselSection from "../home/carousel/CarouselSection";
 import EntitySection from "../home/entity section/EntitySection";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import HeadlineBox from "../home/moreNews/HeadlineBox"
 import {
   faFacebook,
   faInstagram,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import LiveMatchHeader from "./liveMatchSection/LiveMatchHeader";
-import LiveScore from "./live/LiveScore";
 
 const SportMatch = () => {
   return (
@@ -20,10 +18,12 @@ const SportMatch = () => {
         <EntitySection />
         <CarouselSection />
       </div>
+      
       <div className="sport-match-section">
         <h2>Sport-matches</h2>
 
         <div className="sport-match-flex">
+        {/* ****************social-links******************* */}
         <div className="live-match-section">
           <div className="social-post-box">
             <ul>
@@ -49,9 +49,8 @@ const SportMatch = () => {
               </li>
             </ul>
           </div>
-          {/* <LiveMatchHeader /> */}
-          <LiveScore/>
-
+          
+          <LiveMatchHeader />
         </div>
           {/* <HeadlineBox /> */}
         </div>
