@@ -1,0 +1,117 @@
+.form_teams{
+    color: #000;    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f5f8;
+}
+.form-team-home{
+    width: 49.5%;
+}
+.last-win-loss-box{
+    color: #000;
+    background: #ffffff;    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    text-align: center;
+}
+.inning-name{
+    font-weight: 700;
+    position: relative;
+    vertical-align: middle;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.win_los_dwaw{
+    font-size: 17px;
+    padding: 4px 8px;
+    margin: 0 2px;
+    border-radius: 60px;
+    background: #10aa69;font-weight: 700;color: #fff;
+}
+/* ****************** */
+
+.formlistdata{
+    box-shadow: none;
+    background: #ffffff;    padding: 15px;
+    box-shadow: 3px 4px 5px 2px #eee;
+    margin: 10px 0;
+}
+.form-match_head{
+    font-size: 15px;
+    padding: 3px 0;
+    text-align: start;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 800;
+    word-break: keep-all;
+}
+.result{
+    font-size: 14px;
+    padding: 2px 0;
+        background: #10aa69;
+    color: #fff;
+    
+    border-radius: 32px;
+    float: left;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-match_content{
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 25px;
+    white-space: nowrap;
+}
+.home-name,.away-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;    width: 40%;
+    white-space: nowrap;
+}
+.team-score{
+    width: 10%;
+    text-align: center;
+    font-weight: 700;
+}
+.team-score img{
+    width: 100%;
+}
+
+.home-name img , .away-name img{
+    width: 40px;
+    height: auto;
+    position: relative;
+    vertical-align: middle;
+    margin: 0 8px;
+    
+}
+
+.form_teams hr{
+    text-align: center;
+    margin: 10px 0px!important;
+    border-top: 1px solid black;
+    border-style: groove;
+    color: black;
+}
+
+.the-last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.the-last span{
+    color: red;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}

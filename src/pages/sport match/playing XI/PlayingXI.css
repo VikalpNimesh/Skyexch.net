@@ -1,0 +1,83 @@
+.Squad_logos {
+  display: flex;
+  padding: 18px;
+}
+
+.header_team {
+  width: 50%;
+}
+
+.team_ttle {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 15px;
+  padding-bottom: 5px;
+}
+
+.team_ttle img {
+  height: 70px;
+  width: auto;
+  margin: 10px auto;
+}
+/* *********playing players******************** */
+
+.s-playing {
+  padding: 0 18px;
+}
+.s-playing>span {
+  font-weight: 600;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  opacity: 0.6;
+  background: #3737371a;
+}
+
+.data-impact {
+  display: flex;
+}
+.data-impact ul {
+  list-style: disc outside;
+  /* margin: 10px 0; */
+  padding: 0 10px;
+  width: 50%;
+  border-right: 0.5px solid #0000004a;
+  background: #ffffff;
+}
+
+.data-impact ul li {
+  /* margin-left: 50px; */
+  padding: 5px 0px;
+  border-bottom: 0.5px solid #0000004a;
+  margin: 0 !important;
+  line-height: normal;
+  padding-bottom: 0 !important;
+}
+.data-impact ul li a {
+  color: #000;
+  border: none !important;
+  font-weight: 700;
+  font-size: 15px;
+  display: block;
+  padding: 15px;
+  line-height: 30px;
+  text-decoration: none;
+  /* border-bottom: 1px solid #eee; */
+}
+.data-impact ul li a img{
+  width: 40px;
+  height: auto;
+  position: relative;
+  vertical-align: middle;
+  margin-right: 10px;
+  float: left;
+  margin-top: 5px;
+}
+
+.player-name{
+
+}

@@ -1,9 +1,12 @@
 .headline-section {
-  margin-left: 80px;
+  padding: 10px 15px;
+  background: #eee;
+  /* margin-left: 80px; */
+  width: 35%;
+  /* width: 100%; */
+  height: fit-content;
 }
-.live-match-section {
-  /* width: 60%; */
-}
+
 .live-score-box {
   width: 100%;
 }
@@ -96,7 +99,7 @@
 /* *****************commentry**************** */
 
 .match-commentry-box{
-    overflow: hidden;
+    /* overflow: hidden; */
     margin-top: 10px;    padding-top: 10px;
 }
 .comment-ball{

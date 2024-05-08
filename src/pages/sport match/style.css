@@ -1,8 +1,13 @@
 .sport-match-section {
   position: relative;
-  /* width: 100%; */
-    width: 60%!important;
+  width: 100%;
+  /* width: 60%!important; */
+  display: flex;
+  gap: 30px;
   /* background: #000; */
+}
+.sport-flex-box {
+  width: 65%;
 }
 
 .sport-match-section h2 {
@@ -19,23 +24,21 @@
   width: 100%;
 }
 
-
-
-.sport-match-flex{
-  display: flex;
-  gap: 20px;
+.sport-match-flex {
+  /* display: flex; */
+  /* gap: 20px; */
 }
 
 .live-match-section {
   position: relative;
-  width: 100%!important;
+  width: 100% !important;
   /* float: right; */
   display: flex;
-  /* gap: 30px; */
+  gap: 30px;
 }
 
 .social-post-box {
-  margin-right: 30px;
+  /* margin-right: 30px; */
   width: 42px;
 }
 .social-post-box ul {
@@ -62,43 +65,148 @@
   height: 42px;
   list-style: none;
 }
-@media only screen and (max-width: 1100px) {
-  .sport-match-flex {
+
+  /* **********.match-center-header************ */
+  .match-center-header {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #2c1b6b;
+    color: white;
+    background-size: 100% 100%;
+    margin-bottom: 10px;
+  }
+  .mtc-left , .mtc-right {
+    display: flex;
     flex-direction: column;
-    
-}
-@media only screen and (max-width: 900px) {
-
-}
-.teamName{
-  font-size: 13px;
-  white-space: wrap;
-  text-align: center;
-}
-.flexed-score{
-  width: 100%;
-}
-.sport-match-section h2 {
-font-size: 2rem;
-}
-}
-
-@media only screen and (max-width: 900px) {
-
-  .sport-match-section{
-      width: 100%;
-      display: flex;
-      flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
   }
-  .social-post-box{
-      display: none;
+  .teamLogo {
+    width: 65px;
+    height: 65px;
   }
-  .live-match-section{
+  
+  .teamLogo img {
+    width: 100%;
+    height: auto;
     display: block;
   }
-  .match-links{
-    display: flex;flex-direction: column;
+  
+  .mtc-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+  }
+  
+  .match-info {
+    font-size: 11px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+  }
+  .status_note {
+    font-size: 14px;
+    /* font-size: 20px; */
+    font-weight: 800;
+    line-height: 34px;
+    text-align: center;
+  }
+  .flexed-score {
+    width: 75%;
+    align-items: center;
+    justify-content: space-evenly;
+    /* width: 70%; */
+    display: flex;
+    text-align: center;
+    
+  }
+  .teamAscoreFull ,.teamBscoreFull{
+      width: 35%;
+  }
+  .flexed-score img{
+      width: 11%;
+  }
+  .teamaScore ,.teambScore {
+      font-size: 20px;  
+      font-weight: 800;
+      line-height: 1.5;
+  }
+  .teamaOver ,.teambOver{
+      font-size: 13px;
+      font-weight: 600;
+  }
+  
+  .live-match-section hr{
+      margin: 3px 0;
+      width: 100%;
+  }
+  
+  .venue {
+      text-align: center;
+      font-size: 12px;
+      font-weight: 800;
+      line-height: 34px;
+      font-family: Inter,sans-serif!important;
+  }
+
+  /* *************man of the atch ************* */
+
+  .manthematch{
+    display: flex;
+    color: #000;
+    background-color: #ffffff;
+  }
+  .dummy-man-of-the-match{
+    width: 6%;
+  }
+  .dummy-man-of-the-match img{
+    width: 100%;
+  }
+  .flex-the-man{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    color: #000;    font-size: 14px;
+    font-weight: 600;
+    opacity: .6;line-height: 1.5;
+  }
+  @media only screen and (max-width: 900px) {
+  
+  .teamName {
+    font-size: 13px;
+    white-space: wrap;
+    text-align: center;
+  }
+  .flexed-score {
+    width: 100%;
+  }
+  .sport-match-section h2 {
+    font-size: 2rem;
+  }
+  .sport-match-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .social-post-box {
+    display: none;
+  }
+  .live-match-section {
+    display: block;
+  }
+  .match-links {
+    display: flex;
+    flex-direction: column;
     gap: 10px;
   }
+  .sport-flex-box{
+    width: 100%;
+  }
 }
-
